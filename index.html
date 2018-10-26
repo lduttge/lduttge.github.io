@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	    <script src="https://aframe.io/releases/0.8.0/aframe.min.js"></script>
+</head>
+<body>
+  <a-assets>
+  <!-- ... -->
+  <img id="groundTexture" src="https://cdn.aframe.io/a-painter/images/floor.jpg">
+  <!-- ... -->
+  <a-asset-item id="tinker-obj" src="/path/to/tinker.obj"></a-asset-item>
+    <a-asset-item id="obj-mtl" src="/path/to/obj.mtl"></a-asset-item>
+</a-assets>
+  <a-scene>
+<a-plane color="green" height="100" width="100" rotation="-90 0 0"></a-plane>
+<a-text value="Big Boi Crapiola" color="#ZZZ"
+        position="-0.9 2 -4" scale="1.5 1.5 1.5"></a-text>
+          <a-box color="blue" position="0 2 -9" rotation="0 45 45" scale="2 2 2"></a-box>
+                    <a-box color="purple" position="0 1 -6" rotation="0 45 45" scale="2 2 2"></a-box>
+           <a-sphere position="2 3 -7"></a-sphere>
+                      <a-sphere position="-2 3 -7"></a-sphere>
+                                             <a-sphere position="0 5 -7"></a-sphere>
+            <a-sky color="#222"></a-sky>
+<!-- ... --></a-scene>
+</body>
+</html>
